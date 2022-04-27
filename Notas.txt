@@ -1,3 +1,21 @@
 1. Instalar flask
 	-pip install flask
 2. Instalar Flask-MySQLdb con el comando:pip install flask-mysqldb
+
+* No es indispensable instalar:
+	-pip install flask-login  para trabajar con login y session, 
+	en el paquete werkzeug ya con eso lo podemos importar
+	ejemplo; https://www.youtube.com/watch?v=8ebIEefhBpM y https://www.youtube.com/watch?v=jJ4awOToB6k
+3. Para incriptar la clave debo importar 
+	- from werkzeug.security import generate_password_hash, check_password_hash
+
+	*pip list es igual a pip freeze
+
+4. Crear requirements.txt no es mas que un archivo que almacena la lista
+de paquetes instalados en la aplicacion, importante debo estar parado en el entorno virtual env
+y desde alli ejecutar;
+- pip freeze > requirements.txt
+4.Simplemente se ejecuta el siguiente comando en la terminal:
+
+$ pip install -r requirements.txt
+
