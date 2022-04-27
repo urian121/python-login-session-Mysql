@@ -1,2 +1,3 @@
 1. Instalar flask
 	-pip install flask
+2. Instalar Flask-MySQLdb con el comando:pip install flask-mysqldb
